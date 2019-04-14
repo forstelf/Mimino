@@ -67,12 +67,12 @@ ul li a:hover {
 }
 
 .block {
-    padding-left: 25px;
+    padding-left: 480px;
 }
 
 .info-block {
     display: inline-block;
-    width: calc((55%/2) - 10px);
+    /* width: calc((55%/2) - 10px); */
     box-sizing: border-box;
     padding: 0 20px;
     height: 300px;
