@@ -1,3 +1,10 @@
+body {
+    background-color: #aca9a9;
+    margin: 0;
+    padding: 0;
+}
+
+
 nav {
     width: 960px;
     margin: 0 auto;
@@ -8,7 +15,7 @@ nav::before {
     display: block;
     height: 50px;
     width: 100%;
-    background: white;
+    /* background: white; */
     position: absolute;
     left: 0;
     z-index: -1;
@@ -37,4 +44,42 @@ ul li a {
 
 ul li a:hover {
     background: #b31d0d65;
+}
+
+/*section 1*/
+
+.img-greit {
+    background: url(./image/image.jpg) center;
+    width: auto;
+    height: 510px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.block-one {
+    margin: auto;
+}
+
+.text {
+    width: 900px;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+.block {
+    padding-left: 25px;
+}
+
+.info-block {
+    display: inline-block;
+    width: calc((55%/2) - 10px);
+    box-sizing: border-box;
+    padding: 0 20px;
+    height: 300px;
+    /* overflow: scroll; */
+}
+
+.info {
+    width: 414px;
+    height: 63px;
 }
