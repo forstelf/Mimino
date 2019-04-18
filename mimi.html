@@ -7,18 +7,26 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Mimino</title>
     <link rel="stylesheet" href="./mimi.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+
 </head>
 
 <body>
-    <nav>
-        <ul>
-            <li><a href="#">minimø</a></li>
-            <li><a href="#">lifestyle</a></li>
-            <li><a href="#">photodiary</a></li>
-            <li><a href="#">music</a></li>
-            <li><a href="#">travel</a></li>
-        </ul>
-    </nav>
+    <header>
+        <div class="logo">minimø</div>
+        <nav>
+            <ul>
+                <li class="list"><a href="#">lifestyle</a></li>
+                <li class="list"><a href="#">photodiary</a></li>
+                <li class="list"><a href="#">music</a></li>
+                <li class="list"><a href="#">travel</a></li>
+            </ul>
+        </nav>
+    </header>
     <section>
         <div class="img-greit"></div>
         <div class="block-one text">
@@ -59,7 +67,7 @@
                 </p>
             </div>
         </div>
-        <div class="block">
+        <div class="block bottom">
             <div class="info-block">
                 <img src="./image/image3.jpg" alt="">
                 <h4>photodiary</h4>
@@ -80,7 +88,7 @@
             </div>
         </div>
     </section>
-    <section>
+    <section class="spend">
         <div class="sing">
             <h2>Sign up for our newsletter!</h2>
         </div>
@@ -114,20 +122,18 @@
 
     </section>
     <div class="clicK">
-        <input type="button" class="load" value="Load More"
-                onclick="parent.location=''" />
+        <input type="button" class="load" value="Load More" onclick="parent.location=''" />
     </div>
     <footer>
-        <div>
-            <p>Terms and conditions</p>
-            <p>Privacy</p>
+        <div class="cellar">
+            <p>Terms and conditions Privacy</p>
         </div>
-        <div>
-            <p>Follow</p>
+        <div class="follow">
             <ul>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
+                <li>Follow</li>
+                <li><a href=""><i class="fab fa-facebook-square"></i></a></li>
+                <li><a href=""><i class="fab fa-twitter-square"></i></a></li>
+                <li><a href=""><i class="fab fa-instagram"></i></a></li>
             </ul>
         </div>
     </footer>
